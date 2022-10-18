@@ -1,0 +1,16 @@
+.h1{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.graficos_pizza{
+
+    max-width: 40%;
+}
+
