@@ -1,16 +1,76 @@
-.h1{
+h1{
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2{
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
-    
-    
 }
-.header{
+
+p{
+    font-size: 1.5rem;
+}
+
+.cabecalho{
     display: flex;
     justify-content: center;
 }
-.graficos_pizza{
 
-    max-width: 40%;
+.coluna {
+    display: flex;
+    flex-direction: column;
 }
 
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.menu-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coluna-graficos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+}
+
+.icone{
+    height: 6em;
+    width: 6em;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.footer-nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0rem;
+    min-height: 4em;
+    border-top: 0.1rem solid black;
+    background-color: silver;
+}
+
+.footer-items-list{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barra-vertical{
+    border: 0.01rem solid black;
+    height: 100%;
+}
