@@ -1,17 +1,21 @@
 h1{
     padding: 1rem;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
 }
 
 h2{
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
+h3{
+    font-size: 2.5rem;
+}
+
 p{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .cabecalho{
@@ -22,13 +26,61 @@ p{
 .coluna {
     display: flex;
     flex-direction: column;
+    border: 1px solid red
 }
 
 .linha {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 5%;
+    border: 1px solid black;
+
+}
+
+.macronutrientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-pequeno{
+    background-color: silver;
+    margin-right: 1rem;
+}
+
+.display-grande{
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+    width: 4rem;
+}
+
+.display-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 10rem;
+    height: 5rem;
+}
+
+.botao-central{
+    background-color: greenyellow;
+    align-self: center;
 }
 
 .menu-inicial{
@@ -42,12 +94,11 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 5rem;
 }
 
 .icone{
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
     padding-top: 5%;
     padding-bottom: 5%
 }
@@ -55,7 +106,7 @@ p{
 .footer-nav{
     display: flex;
     position: fixed;
-    width: 100%;
+    width: 100%;    
     bottom: 0rem;
     min-height: 4em;
     border-top: 0.1rem solid black;
