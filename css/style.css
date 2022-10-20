@@ -34,7 +34,16 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     border: 1px solid black;
+}
 
+.linha-continua {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.centralizado{
+    align-self: center;
 }
 
 .macronutrientes {
@@ -53,6 +62,13 @@ p{
 .display-central{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-central-linha{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -124,4 +140,12 @@ p{
 .barra-vertical{
     border: 0.01rem solid black;
     height: 100%;
+}
+
+.caixa{
+    display: flex;
+    background-color: silver;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 40%;
 }
