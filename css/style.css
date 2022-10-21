@@ -16,10 +16,18 @@ h3{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 p{
     font-size: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 550px;
+    justify-content: space-evenly;
 }
 
 .cabecalho{
@@ -30,14 +38,18 @@ p{
 .coluna {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    align-self: center;
+}
+
+.coluna-separada {
+    display: flex;
+    flex-direction: column;
     align-self: center;
 }
 
 .coluna-infos {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     justify-content: space-around;
     align-items: flex-end;
 }
@@ -45,7 +57,6 @@ p{
 .coluna-textos {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     justify-content: space-around;
     align-items: center;
 }
@@ -54,20 +65,17 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 1px solid black;
 }
 
 .linha-continua {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
 }
 
 .linha-junta {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid black;
 }
 
 .centralizado{
@@ -90,8 +98,8 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 3px solid green;
-    min-height: 550px;
+    min-height: 500px;
+    min-width: 600px;
 }
 
 .display{
@@ -117,7 +125,6 @@ p{
 
 .display-pequeno{
     background-color: silver;
-    margin-right: 1rem;
 }
 
 .display-grande{
@@ -139,6 +146,7 @@ p{
 .botao-central{
     background-color: greenyellow;
     align-self: center;
+    margin-top: 2em;
 }
 
 .menu-inicial{
@@ -152,13 +160,6 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.icone{
-    height: 5em;
-    width: 5em;
-    padding-top: 5%;
-    padding-bottom: 5%
 }
 
 .footer-nav{
@@ -186,9 +187,12 @@ p{
 
 .caixa{
     display: flex;
+    flex-direction: column;
     background-color: silver;
     align-items: center;
+    justify-content: space-around;
     max-width: 40%;
+    min-height: 510px;
 }
 
 .caixa-grande{
@@ -196,7 +200,9 @@ p{
     flex-direction: column;
     background-color: silver;
     max-width: 80%;
+    min-height: 600px;
     margin-left: 10%;
+    justify-content: space-between;
 }
 
 .imagem-exercicio{
@@ -212,4 +218,29 @@ p{
 .imagem-icone{
     width: 5%;
     height: 5%;
+}
+
+.icone{
+    height: 5em;
+    width: 5em;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.icone-pequeno{
+    height: 3em;
+    width: 3em;
+    padding: 0.1em 0.2em;
+}
+
+.imagem-grafico{
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+}
+
+.imagem-grande{
+    align-self: center;
+    height: 15em;
+    width: 10em;
 }
