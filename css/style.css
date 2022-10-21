@@ -31,6 +31,7 @@ p{
     display: flex;
     flex-direction: column;
     border: 1px solid red;
+    align-self: center;
 }
 
 .coluna-infos {
@@ -62,8 +63,27 @@ p{
     border: 1px solid black;
 }
 
+.linha-junta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
 .centralizado{
     align-self: center;
+}
+
+.centralizado-linha{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.centralizado-coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .macronutrientes {
@@ -171,7 +191,16 @@ p{
     max-width: 40%;
 }
 
+.caixa-grande{
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
 .imagem-exercicio{
+    align-self: center;
     width: 95%;
     height: 95%;
 }
