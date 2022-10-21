@@ -163,7 +163,20 @@ p{
 .caixa{
     display: flex;
     background-color: silver;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 40%;
+    align-items: center;
+    max-width: 40%;
+}
+
+.imagem-exercicio{
+    width: 95%;
+    height: 95%;
+}
+
+.imagem-exercicio2{
+    width: 50%;
+}
+
+.imagem-icone{
+    width: 5%;
+    height: 5%;
 }

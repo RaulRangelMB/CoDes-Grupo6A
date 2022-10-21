@@ -2,41 +2,65 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tela Ao Treino</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
+    
     <body>
-        <header>
-            <h1>
-                Ao treino
-            </h1>
+        <header class="cabecalho">
+            <h1>Ao treino</h1>
         </header>
-        <main>
-            <figure>
-                <img src="img/tricepspoliabarrareta.png" alt="Tríceps polia barra reta">
-            </figure>
-            TRÍCEPS POLIA BARRA RETA
-            <figure>
-                <img src="img/coracaocheio.png" alt="Está no seu treino">
-            </figure>
-            Adicionar ao treino
-            <figure>
-                <img src="img/tricepsextensaosobreacabeça.jpg" alt="Tríceps extensão sobre a cabeça">
-            </figure>
-            TRÍCEPS EXTENSÃO SOBRE A CABEÇA
-            <figure>
-                <img src="img/coracaovazio.png" alt="Não está no seu treino">
-            </figure>
-            Adicionar ao treino
-            <h2>
-                <a href="telaseutreino.html">Seu Treino</a>
-            </h2>
+
+        <main class="coluna">
+            <ul>
+                <li class="linha">
+                    <ul class="caixa">
+                        <li><ul class="coluna">
+                            <li><ul class="coluna">
+                                <li><img src="img/tricepspoliabarrareta.png" alt="" class="imagem-exercicio"></li>
+                                <li><p>Tríceps Polia Barra Reta</p></li>
+                            </ul></li>
+                            <li><ul class="linha">
+                                <li><img src="img/coracaocheio.png" alt=""></li>
+                                <li><p>Adicionar ao treino</p></li>
+                            </ul></li>
+                        </ul></li>
+                    </ul>
+                    <ul class="caixa">
+                        <li><ul class="coluna">
+                            <li><ul class="coluna">
+                                <li><img src="img/tricepsextensaosobreacabeça.jpg" alt="" class="imagem-exercicio2"></li>
+                                <li><p>Tríceps Extensão Sobre a Cabeça</p></li>
+                            </ul></li>
+                            <li><ul class="linha">
+                                <li><img src="img/coracaovazio.png" alt=""></li>
+                                <li><p>Adicionar ao treino</p></li>
+                            </ul></li>
+                        </ul></li>
+                    </ul>
+                </li>
+            </ul>
+
+        <a href="telaseutreino.html" class="botao-central"><h3>Seu Treino</h3></a>
         </main>
+
         <footer>
-            Sono
-            <a href="telaalimentacaovazia.html">Alimentação</a>
-            <a href="telamenuinicial.html">Menu Inicial</a>
-            Treino
-            <a href="telaintroducaoagua.html">Hidratação</a>
+            <nav class="footer-nav">
+                <ul class="footer-items-list">
+                    <li><a href="#"><img src="img/icone-zzz.png" alt="" class="icone"></a></li>
+                    <li class="barra-vertical"></li>
+                    <li><a href="telaalimentacaovazia.html"><img src="img/icone comida.png" alt="" class="icone"></a></li>
+                    <li class="barra-vertical"></li>
+                    <li><a href="telamenuinicial.html"><img src="img/pessoa.png" alt="" class="icone"></a></li>
+                    <li class="barra-vertical"></li>
+                    <li><a href="telaselecao.html"><img src="img/haltere.png" alt="" class="icone"></a></li>
+                    <li class="barra-vertical"></li>
+                    <li><a href="telaintroducaoagua.html"><img src="img/icone-garrafa.png" alt="" class="icone"></a></li>
+                </ul>
+            </nav>
         </footer>
     </body>
 </html>
