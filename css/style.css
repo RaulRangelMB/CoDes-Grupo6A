@@ -26,7 +26,23 @@ p{
 .coluna {
     display: flex;
     flex-direction: column;
-    border: 1px solid red
+    border: 1px solid red;
+}
+
+.coluna-infos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.coluna-textos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .linha {
@@ -50,6 +66,8 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border: 3px solid green;
+    min-height: 550px;
 }
 
 .display{
