@@ -124,13 +124,13 @@ main{
 }
 
 .display-pequeno{
-    background-color: silver;
+    background-color: #BFBFBF;
 }
 
 .display-grande{
     display: flex;
     justify-content: center;
-    background-color: silver;
+    background-color: #BFBFBF;
     width: 4rem;
 }
 
@@ -138,13 +138,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: silver;
+    background-color: #BFBFBF;
     width: 10rem;
     height: 5rem;
 }
 
 .botao-central{
-    background-color: greenyellow;
+    background-color: #00F700;
     align-self: center;
     margin-top: 2em;
 }
@@ -168,8 +168,8 @@ main{
     width: 100%;    
     bottom: 0rem;
     min-height: 4em;
-    border-top: 0.1rem solid black;
-    background-color: silver;
+    border-top: 0.1rem solid #171E21;
+    background-color: #BFBFBF;
 }
 
 .footer-items-list{
@@ -181,14 +181,14 @@ main{
 }
 
 .barra-vertical{
-    border: 0.01rem solid black;
+    border: 0.01rem solid #171E21;
     height: 100%;
 }
 
 .caixa{
     display: flex;
     flex-direction: column;
-    background-color: silver;
+    background-color: #BFBFBF;
     align-items: center;
     justify-content: space-around;
     max-width: 40%;
@@ -198,7 +198,7 @@ main{
 .caixa-grande{
     display: flex;
     flex-direction: column;
-    background-color: silver;
+    background-color: #BFBFBF;
     max-width: 80%;
     min-height: 600px;
     margin-left: 10%;
