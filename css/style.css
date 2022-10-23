@@ -2,25 +2,31 @@ h1{
     padding: 1rem;
     font-size: 5rem;
     font-weight: bold;
+    font-family: 'Lusitana', serif;
 }
 
 h2{
     padding: 1rem;
     font-size: 3rem;
     font-weight: bold;
+    font-family: 'Lusitana', serif;
 }
 
 h3{
     font-size: 2.5rem;
+    font-family: 'Lusitana', serif;
 }
 
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Inter', sans-serif;
 }
 
 p{
     font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+
 }
 
 main{
@@ -70,6 +76,7 @@ main{
 .linha-continua {
     display: flex;
     flex-direction: row;
+    border: 1px solid black;
 }
 
 .linha-junta {
@@ -107,6 +114,7 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-self: center;
 }
 
 .display-central{
