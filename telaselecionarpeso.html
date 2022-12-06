@@ -4,28 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Água completa</title>
+    <title>Tela Inicial Água</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/telapeso.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>
-            Parabéns!
-        </h1>
+        <h2>
+            Insira seu peso em kilogramas
+        </h2>
     </header>
 
-    <main class="coluna">
-        <h2>Objetivo Concluído!</h2>
-        <img src="img/garrafa100porcento.PNG" alt="Você bebeu cem porcento do seu consumo diário!" class="imagem-grande">
-        <p class="centralizado">Você completou sua hidratação diária!</p>
-    </main>
-
+    <div class="linha">
+        <input type="text">
+        <div class="display"><p class="display-pequeno">Confirmar</p></div>
+    </div>
+    
+    <a href="telaintroducaoagua.html" class="display-cancelar"><p class="display-pequeno">Cancelar</p></a>
+    
     <footer>
         <nav class="footer-nav">
             <ul class="footer-items-list">
@@ -41,6 +43,7 @@
             </ul>
         </nav>
     </footer>
+
 </body>
 
 </html>
