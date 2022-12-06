@@ -87,6 +87,13 @@ main{
     justify-content: space-evenly;
 }
 
+.linha-alignCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .linha-continua {
     display: flex;
     flex-direction: row;
@@ -95,7 +102,7 @@ main{
 .linha-junta {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .centralizado{
@@ -168,6 +175,7 @@ main{
     background-color: #00F700;
     align-self: center;
     margin-top: 2em;
+    padding: 0.3rem;
 }
 
 .menu-inicial{
@@ -213,7 +221,7 @@ main{
     align-items: center;
     justify-content: space-around;
     max-width: 40%;
-    min-height: 510px;
+    min-height: 450px;
 }
 
 .caixa-grande{
@@ -234,6 +242,18 @@ main{
 
 .imagem-exercicio2{
     width: 50%;
+    align-self: center;
+}
+
+.texto-exercicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: flex-end;
+}
+
+.exercicio-treino{
+    width: 40%;
 }
 
 .imagem-icone{
