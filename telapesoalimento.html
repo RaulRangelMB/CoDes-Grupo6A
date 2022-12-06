@@ -4,61 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Alimentação</title>
+    <title>Tela Peso Alimento</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/telapesoalimento.js"></script>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <h1>
-            Total
-        </h1>
+    <header>
+        <h2>
+            Insira seu o peso do alimento em gramas
+        </h2>
     </header>
 
-    <main>
-        <div class="linha">
-            <section>
-                <h2>Proteínas</h2>
-                <h2>Carboidratos</h2>
-                <h2>Gordura</h2>
-            </section>
-            <div class="coluna-infos">
-                <div class="display">
-                    <div class="display-pequeno">
-                        <p>3,8</p>
-                    </div>
-                    <p>&nbsp;g</p>
-                </div>
-                <div class="display">
-                    <div class="display-pequeno">
-                        <p>42,2</p>
-                    </div>
-                    <p>&nbsp;g</p>
-                </div>
-                <div class="display">
-                    <div class="display-pequeno">
-                        <p>0,3</p>
-                    </div>
-                    <p>&nbsp;g</p>
-                </div>
-            </div>
-        </div>
-        <div class="display-central-linha">
-            <a href="#" class="display-grande">
-                <h4>102</h4>
-            </a>
-            <h3>&nbsp;kcal</h3>
-        </div>
-        <a href="telaadicionaralimento.html" class="botao-central">
-            <h3>Adicionar Alimento</h3>
-        </a>
-    </main>
-
+    <div class="linha">
+        <input type="text">
+        <div class="display"><p class="display-pequeno">Confirmar</p></div>
+    </div>
+    
+    <a href="telaadicionaralimento.html" class="display-cancelar"><p class="display-pequeno">Cancelar</p></a>
+    
     <footer>
         <nav class="footer-nav">
             <ul class="footer-items-list">
@@ -74,6 +43,7 @@
             </ul>
         </nav>
     </footer>
+
 </body>
 
 </html>
