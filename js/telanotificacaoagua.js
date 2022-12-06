@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     spans = main.querySelectorAll('span');
 
-    if (spans[0].innerHTML == "0" && localStorage.getItem("flag_agua") == "false"){
+    agua_set = (localStorage.getItem('agua_bebida')!=null);
+
+    if (!agua_set){
         spans[1].innerHTML = parseFloat(localStorage.getItem("agua_diaria")).toFixed(3);
         localStorage.setItem("agua_bebida", 0);
     }

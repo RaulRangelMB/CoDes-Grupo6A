@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
             agua_bebida = parseFloat(localStorage.getItem('agua_bebida'));
             agua_bebida += agua*0.001;
             localStorage.setItem('agua_bebida', agua_bebida);
-            localStorage.setItem("flag_agua", true);
             window.location.href = "telanotificacaoagua.html";
         }
         else{

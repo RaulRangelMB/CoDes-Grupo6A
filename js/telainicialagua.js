@@ -8,15 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     peso = localStorage.getItem('peso');
 
-    localStorage.setItem("flag_agua", false)
-
     if (peso != null) {
 
         h3.innerHTML = peso;
 
         agua_diaria = peso*0.035;
 
+        kcal_diario = peso*2216/70;
+
         localStorage.setItem("agua_diaria",agua_diaria);
+
+        localStorage.setItem("kcal_diario",kcal_diario);
 
         span.innerHTML = agua_diaria.toFixed(2);
     }
