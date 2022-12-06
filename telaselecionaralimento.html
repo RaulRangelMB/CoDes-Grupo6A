@@ -4,41 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Inicial Água</title>
+    <title>Tela Seleção Alimento</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
-    <script src="js/telainicialagua.js"></script>
+    <script src="js/telaselecionaralimento.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>
-            Olá, João!
+    <header class="cabecalho">
+        <h1 class="centralizado-linha">
+            Selecione um Alimento
         </h1>
     </header>
 
     <main>
-        <section class="linha-continua">
-            <h2>Insira seu peso:&nbsp;</h2>
-            <section class="display">
-                <div class="display-pequeno"><a href="telaselecionarpeso.html">
-                    <h3>70</h3>
-                </a></div>
-                <h3>&nbsp;kg</h3>
-            </section>
-        </section>
-        <h4>
-            Você deverá beber <span>---</span> L de água por dia
-        </h4>
-        <img src="img/garrafa45porcento.PNG" alt="Você bebeu quarenta e cinco porcento do consumo diário"
-            class="imagem-grande">
-        <a href="telanotificacaoagua.html" class="botao-central">
-            <h3>Adicionar Água</h3>
-        </a>
+        <ul class="coluna-separada">
+            <h3>Arroz</h3>
+            <h3>Feijão</h3>
+            <h3>Ovo</h3>
+            <h3>Banana</h3>
+            <h3>Bife</h3>
+        </ul>
+        <a href="telaalimentacaovazia.html" class="display-cancelar"><p class="display-pequeno">Cancelar</p></a>
     </main>
 
     <footer>

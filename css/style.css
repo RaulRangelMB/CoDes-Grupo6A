@@ -69,7 +69,8 @@ main{
 .coluna-separada {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-content: space-between;
+    min-height: 400px;
 }
 
 .coluna-infos {
