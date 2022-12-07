@@ -22,4 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         span.innerHTML = agua_diaria.toFixed(2);
     }
+    else{
+        agua_diaria = 70*0.035;
+
+        kcal_diario = 70*2216/70;
+
+        localStorage.setItem("agua_diaria",agua_diaria);
+
+        localStorage.setItem("kcal_diario",kcal_diario);
+    }
 })
